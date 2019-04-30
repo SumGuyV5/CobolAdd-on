@@ -1,0 +1,17 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>CobolProject</Name>
+    <Description>
+      A project for creating a CobolProject application
+    </Description>
+    <Icon>CobolProject.ico</Icon>
+    <ProjectType>CobolProject</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="CobolProject.cbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">
+        Program.cob
+      </ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
